@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+}
+/*nav stylinng */
+.main{
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)), url(../Assets/img13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    border: 1px solid black;
+    background-color: #563d7c;
+    color: white;
+    height: 60px;
+}
+nav h1{
+    margin:auto;
+}
+/* log in section */
+.entry{
+    float: right;
+    margin-right: 30px;
+    margin-top: 50px;
+    border: 2px solid hsl(212, 31%, 84%);
+    text-align: center;
+    width: 25%;
+    padding-bottom: 40px;
+    background-color: #d7f1ee;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)),url(../Assets/img10.jfif);
+    color: white;
+}
+
+.poster{
+    margin-top: 50px;
+    /* border: 1px solid navy; */
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 150px;
+    float: left;
+    width: 50%;
+}
+input{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 80%;
+    height: 20px;
+      
+}
+button{
+    margin-top: 50px;
+    background-color:#563d7c;
+    color: white;;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+
+}
+.username{
+    margin-top: 40px;
+}
+.password{
+    margin-top: 10px;
+}
+#sign-up{
+    display: none;
+}
+#login{
+    display: block;
+}

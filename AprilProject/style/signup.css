@@ -1,0 +1,23 @@
+.main{
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid black ;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    background-color: #d7f1ee;
+}
+
+
+sign-up > input{
+    display: block;
+    align-items:center;
+    margin: auto;
+    padding:5px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+input[type = "submit"]{
+    background-color: rgb(70, 137, 224);
+}
