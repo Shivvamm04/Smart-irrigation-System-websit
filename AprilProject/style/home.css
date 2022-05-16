@@ -107,15 +107,18 @@ button{
 }
 .l-info2{
     float: right;
-    border: 0.5px solid white;
+    border: 0.5px solid navy;
     background-color: white;
-    /* border-radius: 10px; */
+    border-radius: 4px;
     height: 300px;
     transform : rotateY(25deg) rotateX(-30deg);
     width: 75%;
+    padding:10px;
     /* background-image: url(../Assets/img3.jpg); */
 }
 .l-info2 p{
     color: black;
     font-size: 18px;
 }
+.l-info1 h2{
+    color: green;
